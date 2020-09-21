@@ -3,6 +3,8 @@
 
 2. Aplikasi ini juga mengimplementasikan konsep pemrograman OOP, cocok buat anda yang lagi belajar android.
 
+3. Open Source Code
+
 ## Bahasa Pemrograman
 - Kotlin
 
