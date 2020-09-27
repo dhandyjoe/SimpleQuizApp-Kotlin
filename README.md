@@ -1,7 +1,7 @@
 # SimpleQuizApp-Kotlin
 1. Quiz App merupakan aplikasi yang sangat sederhana untuk dipelajari. Untuk pembuatan aplikasi ini saya tidak menggunakan teknologi apapun dan aplikasi ini dikhususkan bagi anda yang masih belajar Android tingkat dasar.
 
-2. Aplikasi ini juga mengimplementasikan konsep pemrograman OOP, cocok buat anda yang lagi belajar android.
+2. Aplikasi ini juga mengimplementasikan konsep pemrograman OOP, cocok bagi anda yang sedang belajar android.
 
 3. Open Source Code
 
