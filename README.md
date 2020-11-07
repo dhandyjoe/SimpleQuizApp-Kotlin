@@ -8,6 +8,9 @@
 ## Bahasa Pemrograman
 - Kotlin
 
+## Preview App
+- Tunggu yaa !!
+
 ## Fitur 
 - Splash Screen
 
