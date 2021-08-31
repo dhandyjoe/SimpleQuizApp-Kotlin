@@ -1,8 +1,10 @@
-package com.example.quizapp
+package com.example.quizapp.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.quizapp.db.Constants
+import com.example.quizapp.R
 import kotlinx.android.synthetic.main.activity_finish.*
 
 class FinishActivity : AppCompatActivity() {

@@ -1,4 +1,7 @@
-package com.example.quizapp
+package com.example.quizapp.db
+
+import com.example.quizapp.R
+import com.example.quizapp.model.ModelQuestion
 
 object  Constants {
 
@@ -6,11 +9,11 @@ object  Constants {
      const val answer = "answer"
      const val totalAnswer = "total_answer"
 
-    fun getQuestion(): ArrayList<DataQuestion>{
-        val questionList = ArrayList<DataQuestion>()
+    fun getQuestion(): ArrayList<ModelQuestion>{
+        val questionList = ArrayList<ModelQuestion>()
 
 // 1
-        val que1 = DataQuestion(
+        val que1 = ModelQuestion(
             1,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_argentina,
@@ -22,7 +25,7 @@ object  Constants {
         )
 
 // 2
-        val que2 = DataQuestion(
+        val que2 = ModelQuestion(
             2,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_australia,
@@ -31,7 +34,7 @@ object  Constants {
         )
 
 // 3
-        val que3 = DataQuestion(
+        val que3 = ModelQuestion(
             3, "What country does this flag belong to?",
             R.drawable.ic_flag_of_brazil,
             "Belarus", "Belize",
@@ -39,7 +42,7 @@ object  Constants {
         )
 
 // 4
-        val que4 = DataQuestion(
+        val que4 = ModelQuestion(
             4, "What country does this flag belong to?",
             R.drawable.ic_flag_of_belgium,
             "Bahamas", "Belgium",
@@ -47,7 +50,7 @@ object  Constants {
         )
 
 // 5
-        val que5 = DataQuestion(
+        val que5 = ModelQuestion(
             5, "What country does this flag belong to?",
             R.drawable.ic_flag_of_fiji,
             "Gabon", "France",
@@ -55,7 +58,7 @@ object  Constants {
         )
 
 // 6
-        val que6 = DataQuestion(
+        val que6 = ModelQuestion(
             6, "What country does this flag belong to?",
             R.drawable.ic_flag_of_germany,
             "Germany", "Georgia",
@@ -63,7 +66,7 @@ object  Constants {
         )
 
 // 7
-        val que7 = DataQuestion(
+        val que7 = ModelQuestion(
             7, "What country does this flag belong to?",
             R.drawable.ic_flag_of_denmark,
             "Dominica", "Egypt",
@@ -71,7 +74,7 @@ object  Constants {
         )
 
 // 8
-        val que8 = DataQuestion(
+        val que8 = ModelQuestion(
             8, "What country does this flag belong to?",
             R.drawable.ic_flag_of_india,
             "Ireland", "Iran",
@@ -79,7 +82,7 @@ object  Constants {
         )
 
         // 9
-        val que9 = DataQuestion(
+        val que9 = ModelQuestion(
             9, "What country does this flag belong to?",
             R.drawable.ic_flag_of_new_zealand,
             "Australia", "New Zealand",
@@ -87,7 +90,7 @@ object  Constants {
         )
 
 // 10
-        val que10 = DataQuestion(
+        val que10 = ModelQuestion(
             10, "What country does this flag belong to?",
             R.drawable.ic_flag_of_kuwait,
             "Kuwait", "Jordan",

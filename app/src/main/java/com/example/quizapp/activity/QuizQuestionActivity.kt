@@ -1,6 +1,5 @@
-package com.example.quizapp
+package com.example.quizapp.activity
 
-import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
@@ -9,14 +8,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.example.quizapp.db.Constants
+import com.example.quizapp.model.ModelQuestion
+import com.example.quizapp.R
 import kotlinx.android.synthetic.main.activity_quiz_question.*
 
 class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mCurrentPosition: Int = 1
-    private var mQuestionList: ArrayList<DataQuestion>? = null
+    private var mQuestionList: ArrayList<ModelQuestion>? = null
     private var mSelectedOption: Int = 0
     private var mCorrectAnswer: Int = 0
     private var mUsername: String? = null

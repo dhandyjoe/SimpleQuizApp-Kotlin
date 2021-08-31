@@ -1,6 +1,6 @@
-package com.example.quizapp
+package com.example.quizapp.model
 
-data class DataQuestion (
+data class ModelQuestion (
     val id: Int,
     val question: String,
     val image: Int,

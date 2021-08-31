@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name=".FinishActivity"
+            android:name=".activity.FinishActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".QuizQuestionActivity"
+            android:name=".activity.QuizQuestionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activity.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBarSplash">
             <intent-filter>
