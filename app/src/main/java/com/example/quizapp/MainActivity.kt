@@ -23,6 +23,5 @@ class MainActivity : AppCompatActivity() {
                 finish() // fungsi finish agar tidak bisa kembali lagi ke activity inii
             }
         }
-
     }
 }

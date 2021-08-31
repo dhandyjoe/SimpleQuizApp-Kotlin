@@ -76,16 +76,9 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/background_start"
                 android:text="START"
-                android:textColor="#fff"
-                >
+                android:textColor="#fff">
 
             </Button>
         </LinearLayout>
-
-
-
-
-
     </com.google.android.material.card.MaterialCardView>
-
 </LinearLayout>

@@ -1,6 +1,6 @@
 package com.example.quizapp
 
-object Constants {
+object  Constants {
 
      const val name = "Dhandy"
      const val answer = "answer"
